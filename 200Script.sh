@@ -45,7 +45,7 @@ rm /home/$USER/Downloads/dotnet-runtime-6.0.27-win-x64.exe
 7z x -t7z /home/$USER/Downloads/only-retro-roblox-here-v-1.0.3.0.7z/OnlyRetroRobloxHere-v1.0.3.0.7z -o/home/$USER/Downloads/only-retro-roblox-here-v-1.0.3.0.7z/OnlyRetroRobloxHere/
 mv /home/$USER/Downloads/only-retro-roblox-here-v-1.0.3.0.7z/OnlyRetroRobloxHere/ ~/.wine/drive_c/ProgramData/
 
-#RM Useless stuff
+#RM Useless stuff.
 
 #Create Desktop Shortcut
 echo "Creating .desktop file for ORRH"
