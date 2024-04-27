@@ -5,7 +5,7 @@ goverlay_desktop_file="/usr/share/applications/orrh.desktop"
 sudo echo "[Desktop Entry]" > "$goverlay_desktop_file"
 sudo echo "Name=OldRoblox" >> "$goverlay_desktop_file"
 sudo echo "Exec=wine /home/twig/.wine/drive_c/ProgramData/OnlyRetroRobloxHere/OnlyRetroRobloxHere.exe" >> "$goverlay_desktop_file"
-sudo echo "Icon=/home/usr/share/icons/ORRH.png" >> "$goverlay_desktop_file"
+sudo echo "Icon=/usr/share/icons/ORRH.png" >> "$goverlay_desktop_file"
 sudo echo "Type=Application" >> "$goverlay_desktop_file"
 sudo echo "Categories=Games;" >> "$goverlay_desktop_file"
 
