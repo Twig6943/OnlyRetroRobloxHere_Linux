@@ -11,5 +11,5 @@ sudo echo "Categories=Games;" >> "$goverlay_desktop_file"
 
 # Replace USER_PLACEHOLDER with the actual username
 sed -i "s|USER_PLACEHOLDER|$username|g" "$goverlay_desktop_file"
-echo "\e[0;31mShortcut created.\e"
+echo "\e[0;31mShortcut created.ORRH\e"
 sleep 5
