@@ -49,7 +49,7 @@ mv /home/$USER/Downloads/only-retro-roblox-here-v-1.0.3.0.7z/OnlyRetroRobloxHere
 
 #Create Desktop Shortcut
 echo "Creating .desktop file for ORRH"
-sudo aria2c https://github.com/Twig6943/OnlyRetroRobloxHere_Linux/blob/main/ORRH.png?raw=true --dir=/usr/share/icons
+sudo aria2c https://github.com/Twig6943/OnlyRetroRobloxHere_Linux/blob/main/ORRH.png?raw=true --dir=/home/$USER/.local/share/applications/
 aria2c https://raw.githubusercontent.com/Twig6943/OnlyRetroRobloxHere_Linux/main/desktop.sh --dir=/home/$USER/Downloads
 chmod +x /home/$USER/Downloads/desktop.sh
 sudo /home/$USER/Downloads/desktop.sh
