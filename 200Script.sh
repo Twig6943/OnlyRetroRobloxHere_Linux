@@ -1,5 +1,5 @@
 #!/bin/bash
-#V 2.00 Twig
+#V 2.01 Twig
 #Install Aria2 for Debian/Arch
 sudo apt install aria2
 sudo pacman -S ari2a --noconfirm
@@ -52,4 +52,4 @@ echo "Creating .desktop file for ORRH"
 sudo aria2c https://github.com/Twig6943/OnlyRetroRobloxHere_Linux/blob/main/ORRH.png?raw=true --dir=/home/$USER/.local/share/applications/
 aria2c https://raw.githubusercontent.com/Twig6943/OnlyRetroRobloxHere_Linux/main/desktop.sh --dir=/home/$USER/Downloads
 chmod +x /home/$USER/Downloads/desktop.sh
-sudo /home/$USER/Downloads/desktop.sh
+sh /home/$USER/Downloads/desktop.sh
