@@ -1,5 +1,5 @@
 #!/bin/bash
-#V 2.01 Twig
+#V 2.02 Twig
 #Install Aria2 for Debian/Arch
 sudo apt install aria2
 sudo pacman -S ari2a --noconfirm
@@ -34,18 +34,24 @@ rm /home/$USER/Downloads/vcredist_x86.exe
 #Download ORRH
 aria2c https://archive.org/download/only-retro-roblox-here-v-1.0.4.0.7z/only-retro-roblox-here-v-1.0.4.0.7z_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
 
-#Install More Stuff
+#Download with aria2c
 aria2c https://download.visualstudio.microsoft.com/download/pr/856b04b7-f893-4fb1-9205-052413fde70f/09996e15acebe136113a3aa77b28fe5e/aspnetcore-runtime-6.0.27-win-x64.exe --dir=/home/$USER/Downloads
-aria2c https://download.visualstudio.microsoft.com/download/pr/d57db805-d384-4ddb-b4a0-a9b4f7b37400/6e762dcde412cceafa16725e393663ab/dotnet-runtime-6.0.27-win-x64.exe --dir=/home/$USER/Downloads
+#aria2c https://download.visualstudio.microsoft.com/download/pr/d57db805-d384-4ddb-b4a0-a9b4f7b37400/6e762dcde412cceafa16725e393663ab/dotnet-runtime-6.0.27-win-x64.exe --dir=/home/$USER/Downloads
+aria2c https://archive.org/download/windowsdesktop-runtime-6.0.29-win-x64/windowsdesktop-runtime-6.0.29-win-x64_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
+#Wine stuff
 wine /home/$USER/Downloads/aspnetcore-runtime-6.0.27-win-x64.exe /q
-wine /home/$USER/Downloads/dotnet-runtime-6.0.27-win-x64.exe /q
-rm /home/$USER/Downloads/aspnetcore-runtime-6.0.27-win-x64.exe
-rm /home/$USER/Downloads/dotnet-runtime-6.0.27-win-x64.exe
+#wine /home/$USER/Downloads/dotnet-runtime-6.0.27-win-x64.exe /q
+wine /home/$USER/Downloads/windowsdesktop-runtime-6.0.29-win-x64/windowsdesktop-runtime-6.0.29-win-x64.exe
+
+
 
 7z x -t7z /home/$USER/Downloads/only-retro-roblox-here-v-1.0.4.0.7z/OnlyRetroRobloxHere-v1.0.4.0.7z -o/home/$USER/Downloads/only-retro-roblox-here-v-1.0.4.0.7z/OnlyRetroRobloxHere/
 mv /home/$USER/Downloads/only-retro-roblox-here-v-1.0.4.0.7z/OnlyRetroRobloxHere/ ~/.wine/drive_c/ProgramData/
 
 #RM Useless stuff.
+#rm /home/$USER/Downloads/dotnet-runtime-6.0.27-win-x64.exe
+rm /home/$USER/Downloads/aspnetcore-runtime-6.0.27-win-x64.exe
+rm -r /home/$USER/Downloads/windowsdesktop-runtime-6.0.29-win-x64/
 
 #Create Desktop Shortcut
 echo "Creating .desktop file for ORRH"
