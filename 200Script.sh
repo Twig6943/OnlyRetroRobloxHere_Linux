@@ -1,5 +1,5 @@
 #!/bin/bash
-#V 2.02 Twig
+#V 2.03 Twig
 #Install Aria2 for Debian/Arch
 sudo apt install aria2
 sudo pacman -S ari2a --noconfirm
@@ -32,7 +32,7 @@ rm /home/$USER/Downloads/vcredist_x86.exe
 
 
 #Download ORRH
-aria2c https://archive.org/download/only-retro-roblox-here-v-1.0.4.0.7z/only-retro-roblox-here-v-1.0.4.0.7z_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
+aria2c https://archive.org/download/only-retro-roblox-here-v-1.0.5.0.7z/only-retro-roblox-here-v-1.0.5.0.7z_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
 
 #Download with aria2c
 aria2c https://download.visualstudio.microsoft.com/download/pr/856b04b7-f893-4fb1-9205-052413fde70f/09996e15acebe136113a3aa77b28fe5e/aspnetcore-runtime-6.0.27-win-x64.exe --dir=/home/$USER/Downloads
@@ -45,8 +45,8 @@ wine /home/$USER/Downloads/windowsdesktop-runtime-6.0.29-win-x64/windowsdesktop-
 
 
 
-7z x -t7z /home/$USER/Downloads/only-retro-roblox-here-v-1.0.4.0.7z/OnlyRetroRobloxHere-v1.0.4.0.7z -o/home/$USER/Downloads/only-retro-roblox-here-v-1.0.4.0.7z/OnlyRetroRobloxHere/
-mv /home/$USER/Downloads/only-retro-roblox-here-v-1.0.4.0.7z/OnlyRetroRobloxHere/ ~/.wine/drive_c/ProgramData/
+7z x -t7z /home/$USER/Downloads/only-retro-roblox-here-v-1.0.5.0.7z/OnlyRetroRobloxHere-v1.0.5.0.7z -o/home/$USER/Downloads/only-retro-roblox-here-v-1.0.5.0.7z/OnlyRetroRobloxHere/
+mv /home/$USER/Downloads/only-retro-roblox-here-v-1.0.5.0.7z/OnlyRetroRobloxHere/ ~/.wine/drive_c/ProgramData/
 
 #RM Useless stuff.
 #rm /home/$USER/Downloads/dotnet-runtime-6.0.27-win-x64.exe
