@@ -1,5 +1,5 @@
 #!/bin/bash
-#V 2.03 Twig
+#V 2.04 Twig
 #Install Aria2 for Debian/Arch
 sudo apt install aria2
 sudo pacman -S ari2a --noconfirm
