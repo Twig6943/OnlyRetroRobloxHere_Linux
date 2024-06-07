@@ -1,7 +1,7 @@
 # OnlyRetroRobloxHere_Linux
 ### This is for 2007-2013
 An install script for OnlyRetroRobloxHere
-
+Roblox on GNU/Linux status: :x:
 
 Make sure you have aria2 & wget installed
 ```
