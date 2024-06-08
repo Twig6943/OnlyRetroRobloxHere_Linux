@@ -1,4 +1,5 @@
 #This is a fork of https://gist.github.com/KLanausse/b0ba7e212f4cea6d725eac6be5c2d880
+#This might not work I've never tested this.
 #!/bin/bash
 prefix=$HOME/.local/share/wineprefixes/OnlyRetroRobloxHere
 
