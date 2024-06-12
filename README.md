@@ -4,6 +4,10 @@
 
 This is a fork of [KLanausse's ORRH script](https://gist.github.com/KLanausse/b0ba7e212f4cea6d725eac6be5c2d880)
 
+Here's what my script does but KLanausse's doesn't;
+Installs wine-staging-tkg-9.5-amd64 (x86 is also in the script) and adds it into the .desktop file
+Install the latest ORRH script from archive.org
+
 Run this ⬇️
 ```
 #Command for Debian-based distros
