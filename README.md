@@ -17,7 +17,7 @@ chmod +x /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_a
 rm -r /home/$USER/Downloads/only-retro-roblox-here-archive
 ```
 
-If you have a crappy GPU/iGPU please run this script instead ⬇️
+If you have a crappy GPU/iGPU run this script instead ⬇️
 ```
 #Command for Debian-based distros
 sudo apt-get install aria2
