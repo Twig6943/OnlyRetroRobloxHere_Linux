@@ -1,5 +1,5 @@
 ###ORRH Linux install script (Make sure you have aria2 installed)
-
+Run this ⬇️
 ```
 #Command for Debian-based distros
 sudo apt-get install aria2
@@ -11,7 +11,8 @@ chmod +x /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_a
 /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_and_install.sh
 rm -r /home/$USER/Downloads/only-retro-roblox-here-archive
 ```
-İf you have a crappy GPU/iGPU please run this script instead
+
+If you have a crappy GPU/iGPU please run this script instead ⬇️
 ```
 #Command for Debian-based distros
 sudo apt-get install aria2
