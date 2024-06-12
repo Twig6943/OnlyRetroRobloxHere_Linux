@@ -1,4 +1,9 @@
-###ORRH Linux install script (Make sure you have aria2 installed)
+### ORRH GNU/Linux 🐧 install script 
+
+(Make sure you have aria2 installed)
+
+This is a fork of [KLanausse's ORRH script](https://gist.github.com/KLanausse/b0ba7e212f4cea6d725eac6be5c2d880)
+
 Run this ⬇️
 ```
 #Command for Debian-based distros
