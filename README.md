@@ -9,4 +9,17 @@ aria2c https://archive.org/download/only-retro-roblox-here-archive/only-retro-ro
 aria2c -d /home/$USER/Downloads/only-retro-roblox-here-archive/ https://gist.githubusercontent.com/KLanausse/b0ba7e212f4cea6d725eac6be5c2d880/raw/655f5d0adfa2c0236468bb79a2f96506ef067c67/ORRH_linux_setup_and_install.sh
 chmod +x /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_and_install.sh
 /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_and_install.sh
+rm -r /home/$USER/Downloads/only-retro-roblox-here-archive
+```
+İf you have a crappy GPU/iGPU please run this script instead
+```
+#Command for Debian-based distros
+sudo apt-get install aria2
+#Command for Arch-based distros
+sudo pacman -S aria2 --noconfirm
+aria2c https://archive.org/download/only-retro-roblox-here-archive/only-retro-roblox-here-archive_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
+aria2c -d /home/$USER/Downloads/only-retro-roblox-here-archive/ https://raw.githubusercontent.com/Twig6943/OnlyRetroRobloxHere_Linux/main/ORRH_linux_setup_and_install-igpu.sh
+chmod +x /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_and_install-igpu.sh
+/home/$USER/Downloads/only-retro-roblox-here-archive/ORRH_linux_setup_and_install-igpu.sh
+rm -r /home/$USER/Downloads/only-retro-roblox-here-archive
 ```
