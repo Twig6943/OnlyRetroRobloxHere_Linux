@@ -1,10 +1,4 @@
 #!/bin/bash
-#Command for Debian-based distros
-sudo apt-get install aria2
-#Command for Arch-based distros
-sudo pacman -S aria2 --noconfirm
-aria2c https://archive.org/download/only-retro-roblox-here-archive/only-retro-roblox-here-archive_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
-
 prefix=$HOME/.local/share/wineprefixes/OnlyRetroRobloxHere
 
 #text colours
@@ -188,5 +182,3 @@ cp ~/.local/share/applications/OnlyRetroRobloxHere.desktop ~/Desktop/OnlyRetroRo
 rm -r /home/$USER/Downloads/only-retro-roblox-here-archive
 #Open
 WINEPREFIX=$prefix wine C:\\\\\\\\ProgramData\\\\\\\\OnlyRetroRobloxHere\\\\\\\\OnlyRetroRobloxHere.exe
-
-
