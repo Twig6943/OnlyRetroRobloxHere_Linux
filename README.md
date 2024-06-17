@@ -19,7 +19,8 @@ sudo pacman -S aria2 --noconfirm
 aria2c https://archive.org/download/only-retro-roblox-here-archive/only-retro-roblox-here-archive_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
 aria2c -d /home/$USER/Downloads/only-retro-roblox-here-archive/ https://raw.githubusercontent.com/Twig6943/OnlyRetroRobloxHere_Linux/main/ORRH.sh
 chmod +x /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH.sh
-/home/$USER/Downloads/only-retro-roblox-here-archive/ORRH.sh
+cd /home/$USER/Downloads/only-retro-roblox-here-archive
+./ORRH.sh
 ```
 
 If you have a crappy GPU/iGPU run this script instead ⬇️
@@ -31,5 +32,6 @@ sudo pacman -S aria2 --noconfirm
 aria2c https://archive.org/download/only-retro-roblox-here-archive/only-retro-roblox-here-archive_archive.torrent --dir=/home/$USER/Downloads --seed-time=0
 aria2c -d /home/$USER/Downloads/only-retro-roblox-here-archive/ https://raw.githubusercontent.com/Twig6943/OnlyRetroRobloxHere_Linux/main/ORRH-igpu.sh
 chmod +x /home/$USER/Downloads/only-retro-roblox-here-archive/ORRH-igpu.sh
-/home/$USER/Downloads/only-retro-roblox-here-archive/ORRH-igpu.sh
+cd /home/$USER/Downloads/only-retro-roblox-here-archive
+./ORRH-igpu.sh
 ```
